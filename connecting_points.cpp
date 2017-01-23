@@ -18,7 +18,7 @@ void init()
 }
 int find(int x)
 {
-  if(x!=pare_nt[x])
+  while(x!=pare_nt[x])
   {
     x = pare_nt[x];
   }
